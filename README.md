@@ -1,4 +1,38 @@
 # Welcome to your Expo app 👋
+Tip & Split App 
+Esta es una aplicación universal desarrollada con Expo y React Native diseñada para simplificar el cálculo de cuentas en grupo. Es una herramienta de utilidad financiera que permite calcular propinas y dividir gastos de forma instantánea.
+
+Funciones Principales
+Cálculo de Cuenta (Bill): Interfaz con teclado numérico personalizado para ingresar el monto total.
+
+Gestión de Propinas (Tip): Selección rápida de porcentajes predeterminados (10%, 15%, 20%).
+
+División de Gastos (Split): Contador dinámico para repartir el total entre varias personas.
+
+Resultados en Tiempo Real: Visualización detallada del total por persona, monto de propina y total general.
+
+Diseño Moderno: Interfaz optimizada en modo oscuro (Dark Mode) con colores de alta visibilidad.
+
+Estructura del Proyecto
+Este proyecto sigue una arquitectura modular de Ingeniería de Software:
+
+app/index.tsx: Pantalla principal y UI de la calculadora.
+
+app/hooks/useTipCalculator.ts: Lógica de negocio separada (Custom Hook) para cálculos matemáticos.
+
+app/components/CalculatorButton.tsx: Componente reutilizable para el teclado numérico.
+
+constants/: Definición de paleta de colores y estilos globales.
+
+
+
+
+
+
+
+
+
+
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
